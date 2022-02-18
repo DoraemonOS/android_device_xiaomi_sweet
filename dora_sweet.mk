@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 TARGET_USES_AOSP_RECOVERY := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
 $(call inherit-product, vendor/dora/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
@@ -29,4 +29,5 @@ PRODUCT_MANUFACTURER := Xiaomi
 DORA_BUILD_TYPE := OFFICIAL
 DORA_MAINTAINER := KernelPanix
 
+# GMS Client Base
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi

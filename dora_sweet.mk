@@ -27,7 +27,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # Maintainer Properties
 DORA_BUILD_TYPE := OFFICIAL
-PRODUCT_GENERIC_PROPERTIES += \
-    ro.doraemon.maintainer=KernelPanix
+DORA_MAINTAINER := KernelPanix
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
